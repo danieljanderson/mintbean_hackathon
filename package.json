@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.2",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+   
+    "test": "nodemon --exec 'mocha -R min --exit'"
+    
+  }
+}
