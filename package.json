@@ -17,7 +17,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "nodemon --exec 'mocha -R min --exit'",
+    "test2": "mocha -R min --exit",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
