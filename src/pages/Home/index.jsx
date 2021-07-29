@@ -4,8 +4,8 @@ import { Button } from '../../components'
 
 const Home = () => {
   return (<div>
-
-    <Button />
+    <h2>Blackjack</h2>
+    <Button>Start Game</Button>
   </div>)
 }
 
