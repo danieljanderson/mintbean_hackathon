@@ -19,4 +19,13 @@ describe("Testing Deck class",()=>{
         // Heart Check
         expect(newDeck.cards[26].color).to.deep.equal('Red')
     })
+     it("shuffles the cards",()=>{
+        let shuffledCards = new Deck()
+        let nonShuffledCards = new Deck()
+        shuffledCards.createDeck()
+        nonShuffledCards.createDeck()
+        shuffledCards.shuffleDeck()
+        expect(shuffledCards).to.not.deep.equal(nonShuffledCards)
+        
+     })
 })

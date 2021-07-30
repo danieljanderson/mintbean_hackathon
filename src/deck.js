@@ -2,6 +2,8 @@ const Card = require('./card')
 class Deck {
     constructor(){
     this.cards = []
+    // this would give you a 52 card deck on every new instance
+    //this.createDeck()
     }
     createDeck(){
         const SUITS = ['Clubs','Diamands','Hearts','Spades']
@@ -15,6 +17,7 @@ class Deck {
 		    	}
         }
         this.cards = newDeck
+
         //formCard is a helper function 
         function formCard(suit,value){
             let singleCard = new Card()
@@ -31,6 +34,16 @@ class Deck {
             }
             return singleCard
         }   
+    }
+    shuffleDeck(){
+        let notShuffledDeck = this.cards
+        let shuffledCards = []
+        while (notShuffledDeck.length!==0){
+            var rIndex= Math.floor(notShuffledDeck.length * Math.random())
+            shuffledCards.push(notShuffledDeck[rIndex])
+             notShuffledDeck.splice(rIndex,1)
+        }
+        this.cards = shuffledCards
     }
     
     
