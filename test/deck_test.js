@@ -6,7 +6,6 @@ describe("Testing Deck class",()=>{
     it("makes a new Deck",()=>{
         let newDeck = new Deck()
         newDeck.createDeck()
-        console.log(newDeck)
         expect(newDeck.cards.length).to.deep.equal(52)
         expect(newDeck.cards[0].suit).to.deep.equal('Clubs')
         expect(newDeck.cards[0].face).to.deep.equal('Ace')
@@ -25,7 +24,14 @@ describe("Testing Deck class",()=>{
         shuffledCards.createDeck()
         nonShuffledCards.createDeck()
         shuffledCards.shuffleDeck()
-        expect(shuffledCards).to.not.deep.equal(nonShuffledCards)
-        
+        expect(shuffledCards).to.not.deep.equal(nonShuffledCards)   
+     })
+     it("it will draw one card",()=>{
+         let testDeck = new Deck()
+         testDeck.createDeck()
+         let card = testDeck.draw()
+         console.log("what is card"+card.color)
+         expect(card.suit).to.deep.equal('Clubs')
+         expect(testDeck.cards.length).to.deep.equal(51)
      })
 })

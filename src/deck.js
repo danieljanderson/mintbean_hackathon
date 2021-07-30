@@ -45,6 +45,15 @@ class Deck {
         }
         this.cards = shuffledCards
     }
+    draw(){
+        let oldDeck = this.cards
+        let card = oldDeck.shift()
+        //console.log("inside the draw function and card is "+card)
+        this.cards= oldDeck
+        return card
+     }
+     
+    
     
     
     
