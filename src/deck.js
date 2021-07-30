@@ -1,9 +1,15 @@
 const Card = require('./card')
 class Deck {
     constructor(){
-    this.cards = []
+    this._cards = []
     // this would give you a 52 card deck on every new instance
     //this.createDeck()
+    }
+    get cards(){
+        return this._cards
+    }
+    set cards(newDeck){
+        this._cards = newDeck
     }
     createDeck(){
         const SUITS = ['Clubs','Diamands','Hearts','Spades']
@@ -16,7 +22,7 @@ class Deck {
 			    newDeck.push(card)	
 		    	}
         }
-        this.cards = newDeck
+        this._cards = newDeck
 
         //formCard is a helper function 
         function formCard(suit,value){
@@ -36,20 +42,20 @@ class Deck {
         }   
     }
     shuffleDeck(){
-        let notShuffledDeck = this.cards
+        let notShuffledDeck = this._cards
         let shuffledCards = []
         while (notShuffledDeck.length!==0){
             var rIndex= Math.floor(notShuffledDeck.length * Math.random())
             shuffledCards.push(notShuffledDeck[rIndex])
              notShuffledDeck.splice(rIndex,1)
         }
-        this.cards = shuffledCards
+        this._cards = shuffledCards
     }
     draw(){
-        let oldDeck = this.cards
+        let oldDeck = this._cards
         let card = oldDeck.shift()
         //console.log("inside the draw function and card is "+card)
-        this.cards= oldDeck
+        this._cards= oldDeck
         return card
      }
      
