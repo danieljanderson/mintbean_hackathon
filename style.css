@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;800&display=swap');
+
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Start of containers 1 - 4 */
+.container1, .container2, .container3, .container4{
+    width: 80%;
+    margin: auto;
+    max-width: 900px; 
+    padding-top: 6rem;
+}
+
+.welcome{
+    padding-top: 5rem;
+}
+
+.tagline{
+    font-size: 2rem;
+    padding-top: 2rem;
+    font-weight: 500;
+}
+
+.valueImg{
+    margin-top: 1rem;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.7);
+}
+
+
+
+.col-lg-12{
+    padding: 0 12px !important;
+}
+
+h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
+    padding: 6rem 0 2rem 0;
+   
+}
+
+/* End of containers 1 - 4 */
+
+
+
+
+/* Start of CSS for Meet the Developers */
+
+.container5{
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+    margin-bottom: 5rem;
+    padding-top: 6rem;
+}
+
+.developers {
+    border: 2px solid black;
+    border-radius: 1rem;
+    
+}
+
+.deck {
+    margin: 2rem 0;
+}
+
+
+
+.social-links img{
+    padding: 2px;
+    max-width: 35px;
+    
+}
+
+.card{
+    background-color: rgb(0,153,20);
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.7);
+}
+
+.card-body{
+    padding: 12px 0;
+}
+
+.card h5{
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* End of Meet the Developers */
+
+
+
+
+/* Start of Navbar  */
+.navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 0.8rem;
+    box-shadow: 0px 3px 15px rgba(3,92,15,.4);
+    
+    
+}
+
+  .logoTitle{
+    color:rgb(0,153,20) !important;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+  }
+
+  .playButton{
+      background-color: rgb(0,153,20);
+      letter-spacing: .05rem;
+      color:white !important;
+      border-radius: .2rem;
+      padding: .2rem;
+      text-decoration: none;
+  }
+
+  .nav-item a{
+      font-size: 1.1rem; 
+      margin:  0 .3rem; 
+  }
+
+  .navList{
+      margin: 0 0px 0 0;
+  }
+
+  /* End of Navbar */
+
+
+
+ 
+/* Start of footer  */
+  footer {
+    letter-spacing: 1.3px;
+    background-color: #fff;
+    color: black;
+    box-shadow: 0px 3px 15px rgba(3,92,15,.4);
+}
+/* End of Footer */
+
+
+.blog{
+    
+    background-color: rgb(0,153,20);
+    box-shadow: 0px 3px 15px rgba(3,92,15,.4);
+    padding: .5rem;
+    border-radius: .3rem;
+}
+
+.blog a{
+    color: white;
+    letter-spacing: 1.8px;
+}
+ 
+
+  
+
