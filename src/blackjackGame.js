@@ -72,22 +72,22 @@ class Blackjack{
             return false
         }
     }
-    doubleDown(){
+    doubleDown(player){
         //todo place holder for the doubling down 
     }
-    playDealer(){
+    playDealer(dealer){
         //todo place holder for the dealers logic
     }
-    is21(){
+    is21(player){
         //todo place holder to check to see if there is 21
     }
-    scoreHand(){
+    scoreHand(player){
         //todo place holder to score the hand
     }
-    stay(){
+    stay(player){
         //todo place holder for stay function
     }
-    hit(){
+    hit(player){
         //todo place holder for hit function
     }
     
