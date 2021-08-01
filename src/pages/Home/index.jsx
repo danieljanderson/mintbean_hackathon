@@ -3,10 +3,10 @@ import './styles.css';
 import { Button } from '../../components'
 
 const Home = () => {
-  return (<div>
-    <h2>Blackjack</h2>
-    <Button>Start Game</Button>
-  </div>)
+  return (
+    <div>
+      <h1>Home</h1>
+    </div>)
 }
 
-export default Home
+export default Home;
