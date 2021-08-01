@@ -85,7 +85,7 @@ class Blackjack{
     doubleDown(player){
         player.money = player.money - this.pot
         this.pot = this.pot * 2
-        //todo place holder for the doubling down 
+        
     }
     playDealer(dealer){
         this.scoreHand(dealer)
@@ -111,6 +111,13 @@ class Blackjack{
         
         
     }
+    hit(player){
+        let tempShoe = this._shoe
+        let playercard = tempShoe.draw()
+        player.draw(playercard)
+
+    }
+    
     
 
     
