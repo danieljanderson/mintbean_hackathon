@@ -1,3 +1,4 @@
+//!Add a check for 21 after the deal
 const Shoe = require('./shoe')
 
 
@@ -70,6 +71,24 @@ class Blackjack{
         else{
             return false
         }
+    }
+    doubleDown(){
+        //todo place holder for the doubling down 
+    }
+    playDealer(){
+        //todo place holder for the dealers logic
+    }
+    is21(){
+        //todo place holder to check to see if there is 21
+    }
+    scoreHand(){
+        //todo place holder to score the hand
+    }
+    stay(){
+        //todo place holder for stay function
+    }
+    hit(){
+        //todo place holder for hit function
     }
     
 }
