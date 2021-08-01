@@ -47,9 +47,9 @@ class Blackjack{
     }
     deal(player,dealer,numDeck){
         this._shoe.createShoe(numDeck)
-        console.log("this is a shoe "+ this._shoe)
+      
         let tempShoe = this._shoe
-        console.log("still is a shoe "+ tempShoe)
+        
         tempShoe.shuffleDeck()
         
         for(let i = 0;i<2;i++){
@@ -59,11 +59,17 @@ class Blackjack{
             dealer.draw(dealerCard)
 
         }
+        
         this._shoe = tempShoe
-        dealer.hand[1].flipOver = false
-
-
-
+        dealer.hand[1].flipOver = true
+    }
+    isSplit(player){
+        if(player.hand[0].face===player.hand[1].face){
+            return true
+        }
+        else{
+            return false
+        }
     }
     
 }

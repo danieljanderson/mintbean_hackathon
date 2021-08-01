@@ -30,7 +30,7 @@ class Deck {
             singleCard.suit = suit
             singleCard.face = value
             singleCard.value = 0
-            singleCard.flipOver = false
+            singleCard.flipOver = true
             singleCard.image = 'image/'+suit+value+'.bmp'
             if(suit==='Diamands' || suit==='Hearts'){
                 singleCard.color = 'Red'
