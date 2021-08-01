@@ -89,12 +89,13 @@ class Blackjack{
     }
     playDealer(dealer){
         this.scoreHand(dealer)
-        do{
+        while(dealer.handvalue<=16)
+        {
             let tempShoe = this._shoe
             let dealerCard = tempShoe.draw()
             dealer.draw(dealerCard)
 
-        }while(dealer.handvalue<=16)
+        }
      
     }
     scoreHand(player){
