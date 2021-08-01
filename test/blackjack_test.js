@@ -54,5 +54,16 @@ describe("testing blackjack",()=>{
         expect(game.isSplit(Daniel)).to.deep.equal(false)
 
     })
+    it( "it will tell me I have blackjack",()=>{
+        let Daniel = new Player("Daniel")
+        let card1 = new Card()
+        let card2 = new Card()
+        let game = new Blackjack()
+        card1.value = 11
+        card2.value = 10
+        Daniel.hand = [card1,card2]
+        Daniel.handvalue = 21
+        expect(game.isBlackjack(Daniel)).to.deep.equal(true)
+    })
     
 })

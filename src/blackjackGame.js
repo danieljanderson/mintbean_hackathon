@@ -14,6 +14,7 @@ class Blackjack{
     
     // this stores the betting data
     this._pot =[]
+    this._blackJack = false
     }
 
    
@@ -22,9 +23,18 @@ class Blackjack{
     get pot(){
         return this._pot
     }
+    get dealer(){
+        return this._dealer
+    }
+    get blackJack (){
+        return this._blackJack
+    }
     //! setters
     set players(newPlayers){
         this._players = newPlayers
+    }
+    set blackJack(value){
+        this._blackJack = value
     }
     set dealer(newDealer){
         this._dealer = newDealer
@@ -72,21 +82,35 @@ class Blackjack{
             return false
         }
     }
+    isBlackjack(player){
+        if(player.handvalue===21 && player.hand.length===2){
+            return true
+        }
+        else{
+            return false
+        }
+    }
     doubleDown(player){
         //todo place holder for the doubling down 
     }
     playDealer(dealer){
         //todo place holder for the dealers logic
     }
-    is21(player){
-        //todo place holder to check to see if there is 21
-    }
     scoreHand(player){
-        //todo place holder to score the hand
+        let tempPlayer = player
+        totalHand(tempPlayer)
+        
+        function totalHand (player){
+            let total = 0
+            for (let i = 0; i<player.hand.length;i++){
+                total = total + player.hand[i].value
+            }
+            player.handvalue = total
+        }
+        
+        
     }
-    stay(player){
-        //todo place holder for stay function
-    }
+    
     hit(player){
         //todo place holder for hit function
     }
