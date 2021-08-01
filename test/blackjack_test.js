@@ -15,8 +15,7 @@ describe("testing blackjack",()=>{
         Daniel.money= 100
         game.placeBet(Daniel,50)
         expect(Daniel.money).to.deep.equal(50)
-        expect(game.pot[0].PlayerName).to.deep.equal("Daniel")
-        expect(game.pot[0].bet).to.deep.equal(50)
+        expect(game.pot).to.deep.equal(50)
         
      
     })
@@ -75,7 +74,18 @@ describe("testing blackjack",()=>{
         Daniel.hand = [card1,card2]
         Daniel.handvalue = 21
         game.scoreHand(Daniel)
-        expect(Daniel.handvalue).to.deep.equal(1)
+        expect(Daniel.handvalue).to.deep.equal(21)
+    })
+    it("it will double down",()=>{
+        let Daniel = new Player("Daniel")
+        let game = new Blackjack()
+        Daniel.money= 100
+        game.placeBet(Daniel,50)
+        game.doubleDown(Daniel)
+        expect(Daniel.money).to.deep.equal(0)
+        expect(game.pot).to.deep.equal(100)
+        
+     
     })
     
 })

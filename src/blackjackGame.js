@@ -13,7 +13,7 @@ class Blackjack{
     //this stores dealer data
     
     // this stores the betting data
-    this._pot =[]
+    this._pot = 0
     this._blackJack = false
     }
 
@@ -44,17 +44,9 @@ class Blackjack{
     }
     
     placeBet(player,amount){
-        let  bet = {
-            PlayerName : player.name,
-            bet : amount 
-        }
-        let tempPot = this._pot
-        let money = player.money
-            money = money -amount 
-            tempPot.push(bet)
-            this._pot = tempPot
-            
-            player.money = money
+        
+        player.money = player.money - amount
+        this._pot = amount
     }
     deal(player,dealer,numDeck){
         this._shoe.createShoe(numDeck)
@@ -91,10 +83,19 @@ class Blackjack{
         }
     }
     doubleDown(player){
+        player.money = player.money - this.pot
+        this.pot = this.pot * 2
         //todo place holder for the doubling down 
     }
     playDealer(dealer){
-        //todo place holder for the dealers logic
+        this.scoreHand(dealer)
+        do{
+            let tempShoe = this._shoe
+            let dealerCard = tempShoe.draw()
+            dealer.draw(dealerCard)
+
+        }while(dealer.handvalue<=16)
+     
     }
     scoreHand(player){
         let tempPlayer = player
@@ -111,9 +112,7 @@ class Blackjack{
         
     }
     
-    hit(player){
-        //todo place holder for hit function
-    }
+
     
 }
 module.exports = Blackjack ;
