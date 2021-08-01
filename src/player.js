@@ -18,6 +18,9 @@ class Player {
     get money() {
         return this._money
     }
+    set name(newName){
+        this._name = newName
+    }
     // this set the initial hand
     set hand(newHand) {
         this._hand = newHand
