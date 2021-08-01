@@ -29,7 +29,7 @@ class Deck {
             let singleCard = new Card()
             singleCard.suit = suit
             singleCard.face = value
-            singleCard.value = 0
+            singleCard.value = formValue(value)
             singleCard.flipOver = true
             singleCard.image = 'image/'+suit+value+'.bmp'
             if(suit==='Diamands' || suit==='Hearts'){
@@ -39,7 +39,21 @@ class Deck {
                 singleCard.color = 'Black'
             }
             return singleCard
-        }   
+                function formValue(value){
+                    let cardValue = 0
+                    if(value==="Ace"){
+                        cardValue = 11
+                    }
+                    else if(value === 'King'||value==='Queen'||value==='Jack'){
+                        cardValue = 10
+                    }
+                    else{
+                        cardValue = Number(value)
+                    }
+                    return cardValue
+                }  
+        }
+        
     }
     shuffleDeck(){
         let notShuffledDeck = this._cards

@@ -16,6 +16,7 @@ describe("Shoe class",()=>{
             shuffledCards.createDeck()
             nonShuffledCards.createDeck()
             shuffledCards.shuffleDeck()
+            console.log("hi in the shoe test " + shuffledCards)
             expect(shuffledCards).to.not.deep.equal(nonShuffledCards)   
          })
     })
