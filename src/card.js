@@ -4,7 +4,7 @@ class Card{
     this._suit =''
     this._face =''
     this._value = 0
-    this._flipOver= false
+    this._flipOver= true
     this._image= ''
     this._color=''
     }

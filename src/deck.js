@@ -51,6 +51,7 @@ class Deck {
         }
         this._cards = shuffledCards
     }
+    // this gives a card 
     draw(){
         let oldDeck = this._cards
         let card = oldDeck.shift()
