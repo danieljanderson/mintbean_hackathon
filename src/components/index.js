@@ -1,4 +1,3 @@
-export { default as Button } from './Button';
 export { default as Header } from './Header';
 export { default as Betting } from './Betting';
 export { default as Output } from './Output';

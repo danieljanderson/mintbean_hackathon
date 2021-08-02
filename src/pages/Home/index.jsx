@@ -358,8 +358,14 @@ const Home = () => {
           <Message {...messageProps}/>
           <Betting {...bettingProps} />
           <div className="cardsWrapper">
-           <DealerHand cards={dealerCards} dealerPoints={dealerPoints}/>
-           <PlayerHand cards={playerCards} playerPoints={playerPoints}/>
+            <div className="dearlerPointsSection">
+              {dealerPoints}
+              <DealerHand cards={dealerCards} dealerPoints={dealerPoints}/>
+            </div>
+            <div className="playerPointsSection">
+              {playerPoints}
+                <PlayerHand cards={playerCards} playerPoints={playerPoints}/>
+            </div>
           </div>
         </div>
          <Footer {...inputProps}/>
