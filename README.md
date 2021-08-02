@@ -1,15 +1,15 @@
 # Mint Bean Hackathon Challenge 
-Challenge: Build a card game with an AI component using the standard 52 card deck.
-Our Project: Implement Black Jack game logic in React.
+* Challenge: Build a card game with an AI component using the standard 52 card deck.
+* Our Project: Implement Black Jack game logic in React.
 
-**Link to project:** https://21mintjack.netlify.app/
-**Link to Blog:** https//
+* **Click [here] to see the app in action** 
+* **Link to [Blog]** 
 
 ![alt tag](insertImage)
 
 ## How It's Made:
 
-**Tech used:** React, HTML, CSS, JavaScript, Bootstrap, NodeJS
+**Tech used:** [React], HTML, CSS, JavaScript, [TwitterBootstrap], [Node.js]
 
 Working as a team in different time zones we decided to split the work to maximize our efforts.  To create a better user experience we opted to use our own svg deck of cards rather than using a web API.  We wrote all the business logic in JavaScript, intergrated it into our React components and add a little CSS/Bootstrap to give the project some flavor.  
 
@@ -23,19 +23,32 @@ The main lesson we learned from this project was the importance of over-communic
 
 ## Installation:
 
--Clone repository using the command git clone 
--Run the command _npm_ _install_ to install all dependencies 
--Run the command _npm_ _start_ to run the app locally 
--The app will automatically open in your browser on the following url http://localhost:300
+```sh
+- Clone repository using the command git clone 
+- Run the command _npm_ _install_ to install all dependencies 
+- Run the command _npm_ _start_ to run the app locally 
+- The app will automatically open in your browser on the following url http://localhost:300
+```
 
 
 ## Developers:
-The portfolios of the developers behind the app:
+For more informations on the developers, check out their personal portfolios.
 
-**Chinonoso Igwe:** https://chiboycalix.github.io/chinonso.dev/
+**[Chinonoso Igwe]** 
 
-**Tami Hughes:** https://www.tamsauce.com
+**[Tami Hughes]** 
 
-**Daniel Anderson:** https://danieljanderson.github.io/
+**[Daniel Anderson]** 
 
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen.)
+
+   [here]: https://21mintjack.netlify.app/
+   [Blog]: http://
+   [node.js]: <http://nodejs.org>
+   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
+   [React]: https://reactjs.org/
+   [Chinonoso Igwe]: https://chiboycalix.github.io/chinonso.dev/
+   [Tami Hughes]: https://www.tamsauce.com
+   [Daniel Anderson]: https://danieljanderson.github.io/
 
