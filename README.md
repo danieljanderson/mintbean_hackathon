@@ -8,9 +8,9 @@ Our Project: Implement Mint(black) Jack game logic in React.
 * **Link to [Blog]** 
 
 ## Images of Landing Page:
-<img src="ReadMeImages/landing1.JPG">
-<img src="ReadMeImages/landing2.JPG">
-<img src="ReadMeImages/landing3.JPG">
+<img src="ReadMeImages/landing1.JPG" width="48">
+<img src="ReadMeImages/landing2.JPG"  width="48">
+<img src="ReadMeImages/landing3.JPG"  width="48">
 
 ## Images of Game:
 
