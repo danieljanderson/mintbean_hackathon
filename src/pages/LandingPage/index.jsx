@@ -102,8 +102,7 @@ const history = useHistory()
             <div className="col-lg-6 px-3">
               <h4>HIT & STAND</h4>
               <p>To "hit" is to ask for another card.  Players can hit as many times as they want but will automatically be out of the game if they go over 21. To "stand" is to hold your total and end your turn</p>
-              <h4>SPLIT</h4>
-              <p>A "split" can be done when a player has two of the same card.  The pair is split into two hands.  The player must double their bet so each new hand is worth the original bet</p>
+              
               <h4>DOUBLING DOWN</h4>
               <p>"Doubling Down" is like a hit, but only when the bet is doubled. When a player doubles down they can only "hit" once and will only receive one card.  Note: players can also double down on a split</p>
               <h4>MINTJACK & 21</h4>
