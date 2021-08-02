@@ -2,7 +2,6 @@
 .container1, .container2, .container3, .container4{
     width: 80%;
     margin: auto;
-    max-width: 900px; 
     padding-top: 6rem;
     color: black;
 }
@@ -50,7 +49,6 @@ h3{
 .container5{
     width: 100%;
     margin: auto;
-    max-width: 1200px;
     margin-bottom: 5rem;
     padding-top: 6rem;
 }
@@ -58,12 +56,18 @@ h3{
 .developers {
     border: 2px solid black;
     border-radius: 1rem;
-    
+    object-fit: fill;
+}
+
+.developersWrapper{
+    width: 100%;
 }
 
 .deck {
     margin: 2rem 0;
+    width: 500px;
 }
+
 
 
 
@@ -115,17 +119,9 @@ a{
     color:rgb(0,153,20) !important;
     font-weight: 700;
     font-size: 1.5rem;
-    margin-left: 3rem;
   }
 
-  .playButton{
-      background-color: rgb(0,153,20);
-      letter-spacing: .05rem;
-      color:white !important;
-      border-radius: .2rem;
-      padding: .2rem;
-      text-decoration: none;
-  }
+  
 
   .nav-item a{
       font-size: 1.1rem; 
@@ -135,6 +131,16 @@ a{
   .navList{
       margin: 0 0px 0 0;
   }
+
+  .playButton{
+    background-color: rgb(0,153,20);
+    /* letter-spacing: .05rem;s */
+    color:white !important;
+    border-radius: .2rem;
+    padding: .2rem 1rem !important;
+    text-decoration: none;
+    font-size: 1rem;
+}
 
   /* End of Navbar */
 
@@ -166,5 +172,29 @@ a{
 }
  
 
-  
+  @media(max-width:414px){
+    .container1, .container2, .container3, .container4{
+        width: 145% !important;
+        margin: auto;
+        padding-top: 6rem;
+        color: black;
+
+    }
+    .valueImg{
+        width: 100%;
+    }
+    .theDeal{
+        margin-top: 3rem;
+    }
+    .fallingChipsCard{
+        margin-left: 5rem;
+    }
+    .placeholder{
+        width: 100%;
+    }
+
+    .container5{
+        width: 145%;
+    }
+  }
 

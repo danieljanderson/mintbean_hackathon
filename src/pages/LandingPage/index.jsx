@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom'
 import './styles.css';
 import Logo from '../../assets/img/21Logo.png';
 import MintJackLogo from '../../assets/img/mintJackLogoLg2.png';
@@ -12,6 +12,10 @@ import TamiDP from "../../assets/img/TamiCard.png";
 import PortfolioIcon from "../../assets/img/portfolioIcon.svg";
 
 const LandingPage = () => {
+const history = useHistory()
+  const handlePlayGame = () => {
+    history.push("/home");
+  }
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light navigation">
@@ -23,8 +27,9 @@ const LandingPage = () => {
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="d-flex justify-content-sm-end navList" />
-          <div className="collapse navbar-collapse" id="navbarNav">
+        </div>
+
+        <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="#home">Home</a>
@@ -38,12 +43,9 @@ const LandingPage = () => {
               <li className="nav-item">
                 <a className="nav-link" href="#developers">Developers</a>
               </li>
-              <li className="nav-item">
-                <Link to="/home" className="nav-link playButton">Play Game</Link>
-              </li>
             </ul>
+            <button className="btn btn-success my-2 my-sm-0" type="button" onClick={handlePlayGame}>PlayGame</button>
           </div>
-        </div>
       </nav>
 
       <div className="container1" id="home">
@@ -81,7 +83,7 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="col-lg-12">
+        <div className="col-lg-12 theDeal">
           <h4>THE DEAL</h4>
           <p>Each player starts with two cards, the dealer gives one card face up to each player in rotation clockwise, and then one card face up to themselves. Another round of cards is then dealt face up to each player, but the dealer takes the second card face down.</p>
         </div>
@@ -95,7 +97,7 @@ const LandingPage = () => {
         <div className="container-fluid howToPlay">
           <div className="row">
             <div className="col-lg-6">
-              <img src={FallingChipsCard} alt="" />
+              <img src={FallingChipsCard} alt="" className="fallingChipsCard"/>
             </div>
             <div className="col-lg-6 px-3">
               <h4>HIT & STAND</h4>
@@ -126,7 +128,7 @@ const LandingPage = () => {
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quam tempore, maxime distinctio tempora magnam! Quis exercitationem cum officiis adipisci debitis natus omnis inventore odit iste enim! Cumque, modi ipsa!</p>
             </div>
             <div className="col-lg-6 px-3">
-              <img src={Placeholder} alt="" />
+              <img src={Placeholder} alt="" className="placeholder"/>
             </div>
           </div>
         </div>
@@ -134,21 +136,20 @@ const LandingPage = () => {
 
       <div className="container5" id="developers">
         <div>
-          <h3 class="meet">Meet the Developers</h3>
+          <h3 className="meet">Meet the Developers</h3>
         </div>
 
-        <div className="container-fluid">
+        <div className="container-fluid developersWrapper">
           <div className="padding row d-flex justify-content-center">
             <div className="col-sm-3 deck">
-              <div className="card" style={{ width: "16rem" }}>
-
+              <div className="card">
                 <img
                   className="developers card-img-top"
                   src={NonsoDP}
                   alt="..."
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Chinonoso Igwe</h5>
+                  <h5 className="card-title">Chinonso Igwe</h5>
                   <p className="card-text">
                     A Software Engineer with an eye for design. He specializes in modular systems, interface design, frontend web development with tools such as ReactJS, Redux, Next.js, Ant Design, TailwindCSS, and with backend technologies such as NodeJS, and GraphQL.
                   </p>
@@ -182,7 +183,7 @@ const LandingPage = () => {
             </div>
 
             <div className="col-sm-3 deck">
-              <div className="card" style={{ width: "16rem" }}>
+              <div className="card">
                 <img
                   className="developers card-img-top"
                   src={TamiDP}
@@ -224,7 +225,7 @@ const LandingPage = () => {
             </div>
 
             <div className="col-sm-3 deck">
-              <div className="card" style={{ width: "16rem" }}>
+              <div className="card">
                 <img
                   className="developers card-img-top"
                   src={DanielDP}
@@ -269,11 +270,11 @@ const LandingPage = () => {
       </div>
 
       <footer>
-        <div class="navbar navbar-inverse">
-          <div class="container-fluid d-flex justify-content-evenly">
+        <div className="navbar navbar-inverse">
+          <div className="container-fluid d-flex justify-content-evenly">
 
-            <p class="copyright">Copyright &copy; Team 21 MintJack 2021</p>
-            <button class="blog"><a href="/">BLOG - Mission:Impossible</a></button>
+            <p className="copyright">Copyright &copy; Team 21 MintJack 2021</p>
+            <button className="blog"><a href="/">BLOG - Mission:Impossible</a></button>
           </div>
         </div>
       </footer>
