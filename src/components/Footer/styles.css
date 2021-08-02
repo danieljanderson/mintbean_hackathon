@@ -1,0 +1,22 @@
+.footerI{
+  background-color: white;
+  display: flex;
+  justify-content:center;
+  padding: 2rem 0;
+  position: absolute;
+  bottom: 0rem;
+  width: 100%;
+}
+
+.control{
+  border: 1px solid rgb(0,153,20);
+  padding: .5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  color: rgb(0,153,20);
+}
+
+.control:not(:last-child){
+  margin-right: 2rem;
+}
+
