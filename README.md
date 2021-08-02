@@ -13,15 +13,15 @@ Our Project: Implement Black Jack game logic in React.
 
 **Tech used:** [React], HTML, CSS, JavaScript, [Twitter Bootstrap], [Node.js]
 
-Working as a team in different time zones we decided to split the work to maximize our efforts.  To create a better user experience we opted to use our own svg deck of cards rather than using a web API.  We wrote all the business logic in JavaScript, intergrated it into our React components and add a little CSS/Bootstrap to give the project some flavor.  
+Working as a team in different time zones we decided to split the work to maximize our efforts.  To create a better user experience, we opted to use our own SVG deck of cards rather than using a web API.  We wrote all the business logic in JavaScript, integrated it into our React components and add a little CSS/Bootstrap to give the project some flavor.  
 
 ## Optimizations
 
-While we were able to finish the project and blog about our journey in the time allotted there is always room for optimization.  If we had more time we would have ...
+While we were able to finish the project and blog about our journey in the time allotted there is always room for optimization.  If we had more time, we would have ...
 
 ## Lessons Learned:
 
-The main lesson we learned from this project was the importance of over-communicating with a team.  Since we are all in different time zones, and total strangers, we had to be very detailed regarding our progress.  We also choose to schedule out small windows of time for daily checkins.  Implenting trust in our team was the first thing we "**installed**". 
+The main lesson we learned from this project was the importance of over-communicating with a team.  Since we are all in different time zones, and total strangers, we had to be very detailed regarding our progress.  We also choose to schedule out small windows of time for daily check-ins.  Implementing trust in our team was the first thing we "**installed**". 
 
 ## Installation:
 
@@ -34,7 +34,7 @@ The main lesson we learned from this project was the importance of over-communic
 
 
 ## Developers:
-For more informations on the developers, check out their personal portfolios.
+For more information on the developers, check out their personal portfolios:
 
 - **[Chinonoso Igwe]** 
 
