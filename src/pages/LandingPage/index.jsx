@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles.css';
 import Logo from '../../assets/img/21Logo.png';
-import MintJackLogo from '../../assets/img/mintJackLogoLg.png';
+import MintJackLogo from '../../assets/img/mintJackLogoLg2.png';
 import BlackJackValues from '../../assets/img/Blackjack-values.png';
-import FallingChipsCard from "../../assets/img/fallingChipsCards.png";
+import FallingChipsCard2 from "../../assets/img/fallingChipsCards2.png";
 import Placeholder from '../../assets/img/placeholder.png';
 import NonsoDP from "../../assets/img/chinonsoCard.png";
 import DanielDP from "../../assets/img/danielCard.jpg";
@@ -95,7 +95,7 @@ const LandingPage = () => {
         <div className="container-fluid howToPlay">
           <div className="row">
             <div className="col-lg-6">
-              <img src={FallingChipsCard} alt="" />
+              <img src={FallingChipsCard2} alt="" />
             </div>
             <div className="col-lg-6 px-3">
               <h4>HIT & STAND</h4>
@@ -168,10 +168,10 @@ const LandingPage = () => {
                         alt="linkedin"
                         className="social-emblem"
                       /> </a
-                    ><a href="https://danieljanderson.github.io/" target="_blank" rel="noreferrer">
+                    ><a href="https://chiboycalix.github.io/chinonso.dev/" target="_blank" rel="noreferrer">
                       <img
                         src={PortfolioIcon}
-                        alt="linkedin"
+                        alt="portfolio"
                         className="social-emblem"
                       />
                     </a>
@@ -214,7 +214,7 @@ const LandingPage = () => {
                     <a href="https://www.tamsauce.com" target="_blank" rel="noreferrer">
                       <img
                         src={PortfolioIcon}
-                        alt="linkedin"
+                        alt="portfolio"
                         className="social-emblem"
                       />
                     </a>
@@ -255,7 +255,7 @@ const LandingPage = () => {
                     <a href="https://danieljanderson.github.io/" target="_blank" rel="noreferrer">
                       <img
                         src={PortfolioIcon}
-                        alt="linkedin"
+                        alt="portfolio"
                         className="social-emblem"
                       />
                     </a>
