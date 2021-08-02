@@ -84,8 +84,22 @@ describe("testing blackjack",()=>{
         game.doubleDown(Daniel)
         expect(Daniel.money).to.deep.equal(0)
         expect(game.pot).to.deep.equal(100)
-        
-     
+    })
+    it("it the players total will be 13 with three aces",()=>{
+        let Daniel = new Player("Daniel")
+        let card1 = new Card()
+        let card2= new Card()
+        let card3= new Card()
+        let game = new Blackjack()
+        card1.face = 'Ace'
+        card1.value = 11
+        card2.face = 'Ace'
+        card2.value = 11 
+        card3.face = 'Ace'
+        card3.value = 11
+        Daniel.hand = [card1,card2,card3]
+        game.scoreHand(Daniel)
+        expect(Daniel.handvalue).to.deep.equal(13)
     })
     
 })

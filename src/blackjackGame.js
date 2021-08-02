@@ -100,11 +100,23 @@ class Blackjack{
     }
     scoreHand(player){
         let tempPlayer = player
+        let aceCount = 0
         totalHand(tempPlayer)
+        for(var i=0;i<aceCount;i++){
+            if (tempPlayer.handvalue > 21){
+                tempPlayer.handvalue = tempPlayer.handvalue- 10
+                
+            }
+        
+        }
         
         function totalHand (player){
             let total = 0
             for (let i = 0; i<player.hand.length;i++){
+                if(player.hand[i].face==='Ace'){
+                    aceCount++
+                }
+                
                 total = total + player.hand[i].value
             }
             player.handvalue = total
