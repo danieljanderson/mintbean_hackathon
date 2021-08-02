@@ -1,0 +1,28 @@
+.enableWrapper, .disabledWrapper{
+  text-align: center;
+}
+
+.priceWrapper{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin-bottom: 2rem;
+}
+
+.price{
+  border: 2px solid white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  cursor: pointer;
+}
+.price:not(:last-child){
+  margin-right: 2rem;
+}
+
+.disabled{
+  cursor: not-allowed;
+}
