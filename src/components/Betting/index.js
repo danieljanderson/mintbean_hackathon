@@ -17,7 +17,6 @@ export default function Betting(props) {
         <div className="price" onClick={() => props.handleChipsButtons(25)}>$25</div>
         <div className="price" onClick={() => props.handleChipsButtons(100)}>$100</div>
         <div className="price" onClick={() => props.handleChipsButtons(500)}>$500</div>
-        <div className="price" onClick={() => props.handleChipsButtons(1000)}>$1000</div>
       </div>
       
     </div>
@@ -31,7 +30,6 @@ export default function Betting(props) {
       <div className="price disabled">$25</div>
       <div className="price disabled">$100</div>
       <div className="price disabled">$500</div>
-      <div className="price disabled">$1000</div>
     </div>
     </div>
     

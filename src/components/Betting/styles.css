@@ -26,3 +26,15 @@
 .disabled{
   cursor: not-allowed;
 }
+
+@media(max-width:414px){
+  .priceWrapper{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 2rem;
+  }
+  .price:not(:last-child){
+    margin-right: .5rem;
+  }
+}
