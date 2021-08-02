@@ -4,7 +4,7 @@ import './styles.css';
 import Logo from '../../assets/img/21Logo.png';
 import MintJackLogo from '../../assets/img/mintJackLogoLg2.png';
 import BlackJackValues from '../../assets/img/Blackjack-values.png';
-import FallingChipsCard2 from "../../assets/img/fallingChipsCards2.png";
+import FallingChipsCard from "../../assets/img/fallingChipsCards2.png";
 import Placeholder from '../../assets/img/placeholder.png';
 import NonsoDP from "../../assets/img/chinonsoCard.png";
 import DanielDP from "../../assets/img/danielCard.jpg";
@@ -95,7 +95,7 @@ const LandingPage = () => {
         <div className="container-fluid howToPlay">
           <div className="row">
             <div className="col-lg-6">
-              <img src={FallingChipsCard2} alt="" />
+              <img src={FallingChipsCard} alt="" />
             </div>
             <div className="col-lg-6 px-3">
               <h4>HIT & STAND</h4>
