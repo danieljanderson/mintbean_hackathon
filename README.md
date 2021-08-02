@@ -1,13 +1,18 @@
-# Mint Bean Hackathon Challenge 
+# Mint Bean Hackathon Challenge: 21 Mint Jack! 
 
 Challenge: Build a card game with an AI component using the standard 52 card deck.
 
-Our Project: Implement Black Jack game logic in React.
+Our Project: Implement Mint(black) Jack game logic in React.
 
-* **Click [here] to see the app in action** 
+* **Click [here] to see the game in action** 
 * **Link to [Blog]** 
 
-![alt tag](insertImage)
+## Images of Landing Page:
+<img src="ReadMeImages/landing1.JPG">
+<img src="ReadMeImages/landing2.JPG">
+<img src="ReadMeImages/landing3.JPG">
+
+## Images of Game:
 
 ## How It's Made:
 
@@ -27,8 +32,8 @@ The main lesson we learned from this project was the importance of over-communic
 
 ```sh
 - Clone repository using the command git clone 
-- Run the command _npm_ _install_ to install all dependencies 
-- Run the command _npm_ _start_ to run the app locally 
+- Run the command npm install to install all dependencies 
+- Run the command npm start to run the app locally 
 - The app will automatically open in your browser on the following url http://localhost:300
 ```
 
