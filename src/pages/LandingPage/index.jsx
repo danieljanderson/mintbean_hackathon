@@ -134,7 +134,7 @@ const LandingPage = () => {
 
       <div className="container5" id="developers">
         <div>
-          <h3>Meet the Developers</h3>
+          <h3 class="meet">Meet the Developers</h3>
         </div>
 
         <div className="container-fluid">
