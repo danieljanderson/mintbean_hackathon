@@ -12,7 +12,7 @@ Our Project: Implement Mint(black) Jack game logic in React.
 <img align="left" src="ReadMeImages/landing2.JPG"  width="250">
 <img  src="ReadMeImages/landing3.JPG"  width="250">
 
-## Images of Game:
+## Video of Game:
 
 ## How It's Made:
 
@@ -51,7 +51,7 @@ For more information on the developers, check out their personal portfolios:
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen.)
 
    [here]: https://21mintjack.netlify.app/
-   [Blog]: http://
+   [Blog]: https://medium.com/@thughes78/mission-hackathon-impossible-454a8607ea54
    [node.js]: <http://nodejs.org>
    [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
    [React]: https://reactjs.org/
