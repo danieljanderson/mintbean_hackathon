@@ -137,7 +137,7 @@ const history = useHistory()
               <p>Once you or the house has won, you will see a pop-up notification letting you know the results of the game.  After clearing the board to start a new hand, your earning (if you had any) will appear in your bank.</p>
             </div>
             <div className="col-lg-6 px-3">
-              <iframe src={'https://www.youtube.com/embed/KS4TQ4kwIo0'} style={{width:"100%", height:"100%"}}/>
+              <iframe src={'https://www.youtube.com/embed/KS4TQ4kwIo0'} style={{width:"100%", height:"100%"}} title="game video"/>
             </div>
           </div>
         </div>
@@ -283,7 +283,7 @@ const history = useHistory()
           <div className="container-fluid d-flex justify-content-evenly">
 
             <p className="copyright">Copyright &copy; Team 21 MintJack 2021</p>
-            <button className="blog"><a href="https://medium.com/@thughes78/mission-hackathon-impossible-454a8607ea54" target="_blank" >BLOG - Mission:Impossible?</a></button>
+            <button className="blog"><a href="https://medium.com/@thughes78/mission-hackathon-impossible-454a8607ea54" target="_blank" rel="noreferrer">BLOG - Mission:Impossible?</a></button>
           </div>
         </div>
       </footer>
