@@ -83,10 +83,10 @@ const Home = () => {
         setDealerCards([...dealerCards]);
   
         if (winnerState === WINNER.DEALER) {
-          setMessage('PLAYER BUST');
+          setMessage('SORRY YOU LOST');
         }
         if (winnerState === WINNER.PLAYER) {
-          setMessage('DEALER BUST');
+          setMessage('WOOHOO YOU WON! $$');
         }
         if (winnerState === WINNER.TIE) {
           setMessage('TIE');
