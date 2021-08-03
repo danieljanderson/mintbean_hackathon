@@ -44,7 +44,7 @@ const history = useHistory()
                 <a className="nav-link" href="#developers">Developers</a>
               </li>
             </ul>
-            <a className="nav-link playButton" type="button" onClick={handlePlayGame}>PlayGame</a>
+            <button className="nav-link playButton" type="button" onClick={handlePlayGame}>PlayGame</button>
           </div>
       </nav>
 
