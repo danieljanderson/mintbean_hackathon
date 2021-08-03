@@ -74,7 +74,7 @@ const history = useHistory()
               <h4>CARD VALUES & SCORING</h4>
               <p>It is up to each individual player if an ace is worth 1 or 11. Face cards are 10 and any other card is its pip value.</p>
               <h4>BETTING</h4>
-              <p>Before the deal begins, each player places a bet, in chips, in front of them. Minimum bet is $1 maximum is $1000.</p>
+              <p>Before the deal begins, each player places a bet, in chips, in front of them. Minimum bet is $1 maximum is unlimited.</p>
             </div>
             <div className="col-lg-6">
               <img src={BlackJackValues} className="valueImg" alt="" />
