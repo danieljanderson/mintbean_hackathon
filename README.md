@@ -12,7 +12,7 @@ Our Project: Implement Mint(black) Jack game logic in React.
 <img align="left" src="ReadMeImages/landing2.JPG"  width="250">
 <img  src="ReadMeImages/landing3.JPG"  width="250">
 
-## Images of Game:
+## Video of Game:
 
 ## How It's Made:
 
