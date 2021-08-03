@@ -1,19 +1,20 @@
 .footerI{
-  /* background-color: #21292E;
+  /* background-color: #21292E; */
   display: flex;
   justify-content:center;
   padding: 2rem 0;
   position: absolute;
   bottom: 0rem;
-  width: 100%; */
+  width: 100%;
 }
 
 .control{
-  border: 1px solid rgb(0,153,20);
+  border: 2px solid black;
   padding: .5rem 1.5rem;
   cursor: pointer;
   border-radius: 5px;
-  color: rgb(0,153,20);
+  color: white;
+  background-color: rgb(33,41,46)
 }
 
 .control:not(:last-child){
