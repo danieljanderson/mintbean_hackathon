@@ -12,8 +12,6 @@ Our Project: Implement Mint(black) Jack game logic in React.
 <img align="left" src="ReadMeImages/landing2.JPG"  width="250">
 <img  src="ReadMeImages/landing3.JPG"  width="250">
 
-## Video of Game:
-
 ## How It's Made:
 
 **Tech used:** [React], HTML, CSS, JavaScript, [Twitter Bootstrap], [Node.js]
@@ -47,6 +45,9 @@ For more information on the developers, check out their personal portfolios:
 
 - **[Daniel Anderson]** 
 
+## Video of Game:
+
+
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen.)
 
@@ -58,4 +59,8 @@ For more information on the developers, check out their personal portfolios:
    [Chinonoso Igwe]: https://chiboycalix.github.io/chinonso.dev/
    [Tami Hughes]: https://www.tamsauce.com
    [Daniel Anderson]: https://danieljanderson.github.io/
+
+https://user-images.githubusercontent.com/74758886/128003891-ba119c7b-3e04-42d3-aa6a-a8fac5370033.mp4
+
+
 
