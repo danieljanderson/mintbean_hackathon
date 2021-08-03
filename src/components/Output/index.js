@@ -11,7 +11,6 @@ export default function Output({playerCash,currentBet}) {
         <div></div>
         <div>
           <p>Player Cash: ${playerCash}</p>
-          <p>Current Bet: ${currentBet}</p>
         </div>
         
       </div>

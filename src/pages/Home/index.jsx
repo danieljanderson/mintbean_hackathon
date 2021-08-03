@@ -356,10 +356,17 @@ const Home = () => {
           <Output {...outputProps} />
         <div className="contentWrapper">
           <Message {...messageProps}/>
-          <Betting {...bettingProps} />
+          <Betting {...bettingProps} {...outputProps} />
           <div className="cardsWrapper">
-           <DealerHand cards={dealerCards} dealerPoints={dealerPoints}/>
-           <PlayerHand cards={playerCards} playerPoints={playerPoints}/>
+          <div className="dearlerPointsSection">
+              {dealerPoints === 0 ? null : <p style={{fontWeight:"bold"}}>Dealer Points: {dealerPoints}</p>}
+               <DealerHand cards={dealerCards} dealerPoints={dealerPoints}/>
+            </div>
+            <div className="playerPointsSection">
+                <PlayerHand cards={playerCards} playerPoints={playerPoints}/>
+                {playerPoints === 0 ? null : <p style={{fontWeight:"bold"}}>Player Points: {playerPoints}</p>}
+            </div>
+          
           </div>
         </div>
          <Footer {...inputProps}/>

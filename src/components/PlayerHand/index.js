@@ -7,7 +7,7 @@ export default function Hand({ cards, playerPoints }) {
   return (
   <div className="playerHandWrapper">
     <div className="cards">{currentCards}</div>
-    <div>{playerPoints}</div>
+    
   </div>
   );
 }

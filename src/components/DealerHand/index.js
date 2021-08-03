@@ -9,6 +9,6 @@ export default function Hand({ cards, dealerPoints }) {
     <div className="cards">
     {currentCards}
     </div>
-    <div>{dealerPoints}</div>
+    
   </div>;
 }

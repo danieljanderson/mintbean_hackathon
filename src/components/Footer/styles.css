@@ -6,6 +6,7 @@
   position: absolute;
   bottom: 0rem;
   width: 100%;
+  
 }
 
 .control{
@@ -14,7 +15,8 @@
   cursor: pointer;
   border-radius: 5px;
   color: white;
-  background-color: rgb(33,41,46)
+  background-color: rgb(33,41,46);
+  
 }
 
 .control:not(:last-child){

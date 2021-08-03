@@ -10,7 +10,7 @@ export default function Betting(props) {
 
   const enabledChips = (
     <div className="enableWrapper">
-      <p>Click on an amount to bet with</p>
+      {props.currentBet === 0 ? <p style={{fontWeight:"bold"}}>PLACE YOUR BET</p> : <p style={{fontWeight:"bold"}}>Current Bet: ${props.currentBet}</p>}
       <div className="priceWrapper">
         <div className="price"  onClick={() => props.handleChipsButtons(1)}>$1</div>
         <div className="price" onClick={() => props.handleChipsButtons(5)}>$5</div>

@@ -9,7 +9,7 @@ const Header = () => {
       <div className="dealer">
         <h1>Dealer</h1>
         <div style={{display: 'flex', width: '90px', justifyContent: "space-between"}}>
-        <i class="fa fa-arrow-left"></i> <Link to="/">Back</Link>
+        <i class="fa fa-arrow-left"></i> <Link to="/" style={{color:"rgb(0,153,20", fontWeight:'bold'}}>Back</Link>
         </div>
        
       </div>

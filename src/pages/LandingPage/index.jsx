@@ -100,15 +100,18 @@ const history = useHistory()
               <img src={FallingChipsCard} alt="" className="fallingChipsCard"/>
             </div>
             <div className="col-lg-6 px-3">
-              <h4>HIT & STAND</h4>
-              <p>To "hit" is to ask for another card.  Players can hit as many times as they want but will automatically be out of the game if they go over 21. To "stand" is to hold your total and end your turn</p>
-              
+              <h4>HIT</h4>
+              <p>To "hit" is to ask for another card.  Players can hit as many times as they want but will automatically be out of the game if they go over 21. </p>
+              <h4>STAND</h4>
+              <p>To "stand" is to hold your total and end your turn</p>
               <h4>DOUBLING DOWN</h4>
               <p>"Doubling Down" is like a hit, but only when the bet is doubled. When a player doubles down they can only "hit" once and will only receive one card.  Note: players can also double down on a split</p>
+              <h4>SPLITING</h4>
+              <p>Sorry "splits" are not offered at this casino!</p>
               <h4>MINTJACK & 21</h4>
-              <p>MintJack pays out 1.5 the amount of the players bet with a two card combo of an Ace and 10.  21 is achieved by adding mulitple cards up to 21 and pays out double</p>
+              <p>MintJack and 21 both pay out the amount you bet. MintJack can be achieved with a two-card combo of an Ace and Jack (or any other card valued at 10).  21 is achieved by adding mulitple cards up to 21.</p>
               <h4>DEALER</h4>
-              <p>The dealer has to continue to hit until the cards total 17 or higher</p>
+              <p>The dealer must continue to hit until the cards total 17 or higher.  Dealer will not hit on a soft 17.</p>
             </div>
           </div>
         </div>
@@ -122,9 +125,17 @@ const history = useHistory()
           <div className="row">
             <div className="col-lg-6">
               <h4>MintJack in Action</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga laboriosam aspernatur voluptate dolor neque quis porro sint. Ut debitis, velit cum nihil quidem omnis sed perferendis ad. Voluptas, culpa aspernatur.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga suscipit dolorum ut magnam ea delectus deleniti iusto esse, vel, ullam debitis aliquam molestias reiciendis eum commodi quo cupiditate. Distinctio, labore.</p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quam tempore, maxime distinctio tempora magnam! Quis exercitationem cum officiis adipisci debitis natus omnis inventore odit iste enim! Cumque, modi ipsa!</p>
+              <p>Like in any casino, to start the game you must first "Place your bets".  You only have $100 so be sure not to lose it all at once. </p>
+              <p>After placing your bet(s), click the DEAL button to start the game.  At this point you will have three options.
+                  <ol>
+                    <li>Hit</li>
+                    <li>Stand</li>
+                    <li>Double Down</li>
+                  </ol>
+                  If you have forgotten the rules, you can always use the back button to return to the main page. 
+              </p>
+              <p> Really bad at math?  Don't worry!  We add up your card values for you.</p>
+              <p>Once you or the house has won, you will see a pop-up notification letting you know the results of the game.  After clearing the board to start a new hand, your earning (if you had any) will appear in your bank.</p>
             </div>
             <div className="col-lg-6 px-3">
               <img src={Placeholder} alt="" className="placeholder"/>

@@ -1,5 +1,6 @@
 .enableWrapper, .disabledWrapper{
   text-align: center;
+  font-weight: 400;
 }
 
 .priceWrapper{
@@ -10,7 +11,7 @@
 }
 
 .price{
-  border: 2px solid black;
+  border: 2px solid rgb(100, 2, 2);
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -46,3 +47,5 @@
     margin-right: .5rem;
   }
 }
+
+
