@@ -1,11 +1,11 @@
 .footerI{
-  background-color: white;
+  /* background-color: #21292E;
   display: flex;
   justify-content:center;
   padding: 2rem 0;
   position: absolute;
   bottom: 0rem;
-  width: 100%;
+  width: 100%; */
 }
 
 .control{
@@ -22,7 +22,7 @@
 
 @media (max-width: 414px){
   .footerI{
-    background-color: white;
+    background-color: #21292E;
     display: flex;
     justify-content:center;
     padding: 2rem 0;

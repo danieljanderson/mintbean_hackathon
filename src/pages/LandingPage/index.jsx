@@ -44,7 +44,7 @@ const history = useHistory()
                 <a className="nav-link" href="#developers">Developers</a>
               </li>
             </ul>
-            <button className="btn btn-success my-2 my-sm-0" type="button" onClick={handlePlayGame}>PlayGame</button>
+            <a className="nav-link playButton" type="button" onClick={handlePlayGame}>PlayGame</a>
           </div>
       </nav>
 
@@ -141,7 +141,7 @@ const history = useHistory()
         <div className="container-fluid developersWrapper">
           <div className="padding row d-flex justify-content-center">
             <div className="col-sm-3 deck">
-              <div className="card">
+              <div className="card" style= {{ width: "16rem"}}>
                 <img
                   className="developers card-img-top"
                   src={NonsoDP}
@@ -182,7 +182,7 @@ const history = useHistory()
             </div>
 
             <div className="col-sm-3 deck">
-              <div className="card">
+              <div className="card" style= {{ width: "16rem"}}>
                 <img
                   className="developers card-img-top"
                   src={TamiDP}
@@ -224,7 +224,7 @@ const history = useHistory()
             </div>
 
             <div className="col-sm-3 deck">
-              <div className="card">
+              <div className="card"  style= {{ width: "16rem"}}>
                 <img
                   className="developers card-img-top"
                   src={DanielDP}

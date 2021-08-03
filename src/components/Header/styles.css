@@ -2,12 +2,13 @@ header{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem ;
 }
 .fa-arrow-left {
   margin-top: .3rem;
   -webkit-animation: bounceLeft 2s infinite;
   animation: bounceLeft 2s infinite;
+  color: rgba(0,153,20)
 }
 @-webkit-keyframes bounceLeft {
   0%,

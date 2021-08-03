@@ -1,5 +1,6 @@
 .homeWrapper{
   background-color: #21292E;
+  background-image: url("Poker_Table.jpg") !important;
   height: 100vh;
   display: flex;
   flex-direction: column;

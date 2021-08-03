@@ -4,6 +4,7 @@
     margin: auto;
     padding-top: 6rem;
     color: black;
+    max-width: 900px;
 }
 
 .welcome{
@@ -49,6 +50,7 @@ h3{
 .container5{
     width: 100%;
     margin: auto;
+    max-width: 1200px;
     margin-bottom: 5rem;
     padding-top: 6rem;
 }
@@ -59,13 +61,13 @@ h3{
     object-fit: fill;
 }
 
-.developersWrapper{
+/* .developersWrapper{
     width: 100%;
-}
+} */
 
 .deck {
     margin: 2rem 0;
-    width: 500px;
+    /* width: 500px; */
 }
 
 
@@ -74,6 +76,7 @@ h3{
 .social-links img{
     padding: 2px;
     max-width: 35px;
+    margin-left: .5rem
     
 }
 
@@ -134,7 +137,7 @@ a{
 
   .playButton{
     background-color: rgb(0,153,20);
-    /* letter-spacing: .05rem;s */
+    letter-spacing: .05rem;
     color:white !important;
     border-radius: .2rem;
     padding: .2rem 1rem !important;
