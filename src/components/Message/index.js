@@ -10,7 +10,7 @@ export default function Message({ message, handleClearMessage }) {
       onConfirm={handleClearMessage}
       dependencies={[message]}
     >
-        <p style={{color: "red", fontSize: "30px"}}>{message}</p>
+        <p style={{color: "rgb(0,153,20)", fontSize: "30px", fontWeight: "600"}}>{message}</p>
      </SweetAlert> 
      : 
       null 
