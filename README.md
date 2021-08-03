@@ -31,10 +31,10 @@ The main lesson we learned from this project was the importance of over-communic
 ## Installation:
 
 ```sh
-- Clone repository using the command git clone 
+- Clone repository using the command git clone git@github.com:danieljanderson/mintbean_hackathon.git
 - Run the command npm install to install all dependencies 
 - Run the command npm start to run the app locally 
-- The app will automatically open in your browser on the following url http://localhost:300
+- The app will automatically open in your browser on the following url http://localhost:3000
 ```
 
 
