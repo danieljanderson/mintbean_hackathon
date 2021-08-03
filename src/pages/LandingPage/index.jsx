@@ -283,7 +283,7 @@ const history = useHistory()
           <div className="container-fluid d-flex justify-content-evenly">
 
             <p className="copyright">Copyright &copy; Team 21 MintJack 2021</p>
-            <button className="blog"><a href="https://medium.com/@thughes78/mission-hackathon-impossible-454a8607ea54" target="_blank">BLOG - Mission:Impossible?</a></button>
+            <button className="blog"><a href="https://medium.com/@thughes78/mission-hackathon-impossible-454a8607ea54" target="_blank" >BLOG - Mission:Impossible?</a></button>
           </div>
         </div>
       </footer>
