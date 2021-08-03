@@ -5,7 +5,6 @@ import Logo from '../../assets/img/21Logo.png';
 import MintJackLogo from '../../assets/img/mintJackLogoLg2.png';
 import BlackJackValues from '../../assets/img/Blackjack-values.png';
 import FallingChipsCard from "../../assets/img/fallingChipsCards2.png";
-import Placeholder from '../../assets/img/placeholder.png';
 import NonsoDP from "../../assets/img/chinonsoCard.png";
 import DanielDP from "../../assets/img/danielCard.jpg";
 import TamiDP from "../../assets/img/TamiCard.png";
@@ -138,7 +137,7 @@ const history = useHistory()
               <p>Once you or the house has won, you will see a pop-up notification letting you know the results of the game.  After clearing the board to start a new hand, your earning (if you had any) will appear in your bank.</p>
             </div>
             <div className="col-lg-6 px-3">
-              <img src={Placeholder} alt="" className="placeholder"/>
+              <iframe src={'https://www.youtube.com/embed/KS4TQ4kwIo0'} style={{width:"100%", height:"100%"}}/>
             </div>
           </div>
         </div>
@@ -284,7 +283,7 @@ const history = useHistory()
           <div className="container-fluid d-flex justify-content-evenly">
 
             <p className="copyright">Copyright &copy; Team 21 MintJack 2021</p>
-            <button className="blog"><a href="/">BLOG - Mission:Impossible</a></button>
+            <button className="blog"><a href="https://medium.com/@thughes78/mission-hackathon-impossible-454a8607ea54" target="_blank">BLOG - Mission:Impossible?</a></button>
           </div>
         </div>
       </footer>
