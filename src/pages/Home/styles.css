@@ -1,0 +1,59 @@
+.homeWrapper{
+  background-color: #21292E;
+  background-image: url("Poker_Table.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentWrapper{
+  display: flex;
+  flex-direction: column;
+  /* height: auto; */
+  margin-top: 4rem;
+
+}
+.cardsWrapper{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  
+}
+.divider{
+  width: 100%;
+  height: 10px;
+  background: #aaa;
+}
+
+.dearlerPointsSection, .playerPointsSection{
+  display: flex;
+  width: 28rem;
+  justify-content: space-between;
+}
+
+@media (max-width: 414px){
+  .homeWrapper{
+    background-color: #21292E;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardsWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0rem;
+    margin-left: 3rem;
+  }
+}
+
+.btn-primary{
+  background-color: #21292E !important 
+}
+
+.sweet-alert{
+  width: 20rem !important;
+}

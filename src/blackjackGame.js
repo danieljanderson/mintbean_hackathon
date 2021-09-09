@@ -89,21 +89,34 @@ class Blackjack{
     }
     playDealer(dealer){
         this.scoreHand(dealer)
-        do{
+        while(dealer.handvalue<=16)
+        {
             let tempShoe = this._shoe
             let dealerCard = tempShoe.draw()
             dealer.draw(dealerCard)
 
-        }while(dealer.handvalue<=16)
+        }
      
     }
     scoreHand(player){
         let tempPlayer = player
+        let aceCount = 0
         totalHand(tempPlayer)
+        for(var i=0;i<aceCount;i++){
+            if (tempPlayer.handvalue > 21){
+                tempPlayer.handvalue = tempPlayer.handvalue- 10
+                
+            }
+        
+        }
         
         function totalHand (player){
             let total = 0
             for (let i = 0; i<player.hand.length;i++){
+                if(player.hand[i].face==='Ace'){
+                    aceCount++
+                }
+                
                 total = total + player.hand[i].value
             }
             player.handvalue = total

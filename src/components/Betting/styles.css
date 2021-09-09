@@ -1,0 +1,51 @@
+.enableWrapper, .disabledWrapper{
+  text-align: center;
+  font-weight: 400;
+}
+
+.priceWrapper{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin-bottom: 2rem;
+}
+
+.price{
+  border: 2px solid rgb(100, 2, 2);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  cursor: pointer;
+  background-color: rgb(163,52,52);
+  
+}
+
+.price:hover{
+  color: rgb(33,41,46);
+  background-color: rgb(211,105,105)
+}
+
+.price:not(:last-child){
+  margin-right: 2rem;
+}
+
+.disabled{
+  cursor: not-allowed;
+}
+
+@media(max-width:414px){
+  .priceWrapper{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 2rem;
+  }
+  .price:not(:last-child){
+    margin-right: .5rem;
+  }
+}
+
+
