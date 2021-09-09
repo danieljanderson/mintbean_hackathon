@@ -13,15 +13,11 @@
     "react": "^17.0.2",
     "react-bootstrap-sweetalert": "^5.2.0",
     "react-dom": "^17.0.2",
-<<<<<<< HEAD
-    "react-scripts": "^4.0.3",
-=======
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
     "styled-components": "^5.3.0",
     "sweetalert2": "^11.1.0",
     "sweetalert2-react-content": "^4.1.1",
->>>>>>> ed5bfd3d0ad6aabcba34a9959e68b2f261cc18c0
     "web-vitals": "^1.0.1"
   },
   "scripts": {
